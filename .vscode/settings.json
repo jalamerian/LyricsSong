@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    "**/*.js": {
+      "when": "$(basename).ts"
+    },
+    "**/*.map": {
+      "when": "$(basename).map"
+    },
+    "**/*.css": {
+      "when": "$(basename).scss"
+    }
+  }
+}
