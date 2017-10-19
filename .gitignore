@@ -44,6 +44,5 @@ app/**/*.map
 
 platforms
 hooks
-app/App_Resources
 
 
