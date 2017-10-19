@@ -7,7 +7,15 @@
     "id": "org.nativescript.nativescriptngcoursestarter",
     "tns-ios": {
       "version": "3.2.0"
+    },
+    "tns-android": {
+      "version": "3.2.0"
     }
+  },
+  "scripts": {
+    "start.android": "npm run api & tns run android",
+    "start.ios": "npm run api & tns run ios",
+    "api": "json-server --watch db.json --routes routes.json"
   },
   "dependencies": {
     "@angular/animations": "4.2.5",
@@ -26,6 +34,10 @@
     "zone.js": "0.8.17"
   },
   "devDependencies": {
+    "babel-traverse": "6.26.0",
+    "babel-types": "6.26.0",
+    "babylon": "6.18.0",
+    "lazy": "1.0.11",
     "nativescript-dev-typescript": "0.5.1",
     "typescript": "2.5.2"
   }

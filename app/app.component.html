@@ -1,6 +1,20 @@
 <ActionBar class="action-bar">
-  <Label class="action-bar-title" text="Home"></Label>
+  <Label class="action-bar-title" [text]="title"></Label>
 </ActionBar>
 
-<GridLayout class="page">
-</GridLayout>
+<!-- justifyContent: flex-end; flexWrap: wrap  -->
+<TabView [(ngModel)]="tabSelectedIndex" selectedColor="#FF0000" iosIconRenderingMode="alwaysOriginal" sdkExampleTitle sdkToggleNavButton>
+    <StackLayout *tabItem="{title: 'Profile', iconSource: 'res://icon'}" >
+        <ListView [items]="items">
+            <ng-template let-item="item">
+                <Label [text]="item"></Label>
+            </ng-template>
+        </ListView>
+    </StackLayout>
+    <StackLayout *tabItem="{title: 'Stats'}">
+        <Label text="Second tab item"></Label>
+    </StackLayout>
+    <StackLayout *tabItem="{title: 'Settings'}">
+        <Label text="Third tab item"></Label>
+    </StackLayout>
+</TabView>
