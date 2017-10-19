@@ -1,0 +1,5 @@
+{
+  "/api/*": "/$1",
+  "/paragraphes/:postId/": "/paragraphes?postId=:postId",
+  "/comments/:articleId/": "/comments?articleId=:articleId"
+}

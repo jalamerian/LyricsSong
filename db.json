@@ -1,0 +1,65 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Comment créer une application Angular",
+      "creationDate": 1488412800000,
+      "likes": 12
+    },
+    {
+      "id": 2,
+      "title": "Wow ce cours est trop cool",
+      "creationDate": 1488412800000,
+      "likes": 0
+    },
+    {
+      "id": 3,
+      "title": "Hâte de tater NativeScript",
+      "creationDate": 1488412800000,
+      "likes": 246
+    },
+    {
+      "id": 4,
+      "title": "Pourquoi 42 est la réponse à la vie?",
+      "creationDate": 1488412800000,
+      "likes": 1
+    },
+    {
+      "id": 5,
+      "title": "Blablabla (manque d'inspiration)",
+      "creationDate": 1488412800000,
+      "likes": 56
+    }
+  ],
+  "paragraphes": [
+    {
+      "id": 0,
+      "articleId": 1,
+      "type": "text",
+      "data": "Lorem ipsum"
+    },
+    {
+      "id": 1,
+      "articleId": 1,
+      "type": "image",
+      "data": "/path/to/file"
+    },
+    {
+      "id": 0,
+      "articleId": 1,
+      "type": "video",
+      "data": "path/to/file"
+    }
+  ],
+  "comments": [
+    {
+      "id": 0,
+      "articleId": 1,
+      "data": "Loremp ipsum",
+      "user": {
+        "prenom": "jb",
+        "nom": "aniel"
+      }
+    }
+  ]
+}
