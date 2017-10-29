@@ -1,34 +1,43 @@
 {
-  "articles": [
+  "articles":[
     {
       "id": 1,
       "title": "Comment créer une application Angular",
       "creationDate": 1488412800000,
-      "likes": 12
+      "likes": 12,
+      "dislikes": 2,
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2000px-Angular_full_color_logo.svg.png"
     },
     {
       "id": 2,
       "title": "Wow ce cours est trop cool",
       "creationDate": 1488412800000,
-      "likes": 0
+      "likes": 0,
+      "dislikes": 2
     },
     {
       "id": 3,
       "title": "Hâte de tater NativeScript",
       "creationDate": 1488412800000,
-      "likes": 246
+      "likes": 246,
+      "dislikes": 32,
+      "thumbnail": "https://cms-assets.tutsplus.com/uploads/users/48/posts/28664/preview_image/ns-1.png"
     },
     {
       "id": 4,
       "title": "Pourquoi 42 est la réponse à la vie?",
       "creationDate": 1488412800000,
-      "likes": 1
+      "likes": 42,
+      "dislikes": 12,
+      "thumbnail": "https://1.bp.blogspot.com/-FdUyYlvUdWA/WN6jJ-ie8dI/AAAAAAAAVQw/rjGwJM92CGEJ8hsXexZ4duoVGSQf_fiPQCLcB/s1600/42-1.jpg"
     },
     {
       "id": 5,
       "title": "Blablabla (manque d'inspiration)",
       "creationDate": 1488412800000,
-      "likes": 56
+      "likes": 56,
+      "dislikes": 1234,
+      "thumbnail": "https://i.skyrock.net/2634/20402634/pics/752043517.jpg"
     }
   ],
   "paragraphes": [

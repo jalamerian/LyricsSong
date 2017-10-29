@@ -1,20 +1,18 @@
-import { Component, OnInit } from "@angular/core"; // décorateur
+import { Component, OnInit } from '@angular/core';
+import { registerElement } from 'nativescript-angular/element-registry';
+import { CardView } from 'nativescript-cardview';
+
+
+registerElement("CardView", () => CardView);
 
 @Component({
-  selector: "ns-app", // nom de notre élément html: <ns-app></ns-app>
-  templateUrl: "app.component.html" // chemin vers notre code html
-  //styleUrls: ["./app.component.css"] // les différents chemins vers nos
-  //feuilles de styles que l'on veut appliquer à ce component
+  selector: 'app-root',
+  styleUrls: ['./app.component.css'],
+  template: `
+    <ActionBar title="{{ title + ' :)'}}" class="action-bar"> </ActionBar>
+  `
 })
-export class AppComponent {
-  public items: Array<any>;
-  public tabSelectedIndex: number;
 
-  constructor() {
-      this.tabSelectedIndex = 1;
-      this.items = new Array<any>();
-      for (let i = 0; i < 5; i++) {
-          this.items.push("item " + i);
-      }
-  }
+export class AppComponent {
+  title: string = "NativeScript c'est de la frappe";
 }

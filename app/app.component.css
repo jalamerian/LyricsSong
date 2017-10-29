@@ -1,0 +1,27 @@
+.bouton {
+  background-color: chucknorris;
+}
+
+ScrollView {
+  background-color: whitesmoke;
+}
+
+.cardStyle {
+  background-color: white;
+}
+
+.status {
+  width: 10;
+  height: 10;
+  border-radius: 50%;
+}
+
+.bad {
+  background-color: #c0392b;
+  color: #c0392b;
+}
+
+.good {
+  background-color: #2ecc71;
+  color: #2ecc71;
+}
