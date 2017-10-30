@@ -1,5 +1,5 @@
 {
-  "articles":[
+  "articles": [
     {
       "id": 1,
       "title": "Comment créer une application Angular",
@@ -26,19 +26,19 @@
     },
     {
       "id": 4,
-      "title": "Pourquoi 42 est la réponse à la vie?",
+      "title": "Wow ce cours est trop cool",
       "creationDate": 1488412800000,
-      "likes": 42,
-      "dislikes": 12,
-      "thumbnail": "https://1.bp.blogspot.com/-FdUyYlvUdWA/WN6jJ-ie8dI/AAAAAAAAVQw/rjGwJM92CGEJ8hsXexZ4duoVGSQf_fiPQCLcB/s1600/42-1.jpg"
+      "likes": 0,
+      "dislikes": 2,
+      "thumbnail": "https://yt3.ggpht.com/-PAQyFHyrZmE/AAAAAAAAAAI/AAAAAAAAAAA/n0UMXjBSe-0/s900-c-k-no-mo-rj-c0xffffff/photo.jpg"
     },
     {
       "id": 5,
-      "title": "Blablabla (manque d'inspiration)",
+      "title": "Wow ce cours est trop cool",
       "creationDate": 1488412800000,
-      "likes": 56,
-      "dislikes": 1234,
-      "thumbnail": "https://i.skyrock.net/2634/20402634/pics/752043517.jpg"
+      "likes": 0,
+      "dislikes": 2,
+      "thumbnail": "https://yt3.ggpht.com/-PAQyFHyrZmE/AAAAAAAAAAI/AAAAAAAAAAA/n0UMXjBSe-0/s900-c-k-no-mo-rj-c0xffffff/photo.jpg"
     }
   ],
   "paragraphes": [
