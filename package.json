@@ -13,8 +13,8 @@
     }
   },
   "scripts": {
-    "start.android": "tns run android",
-    "start.ios": "tns run ios",
+    "start.android": "tns run android & npm run api",
+    "start.ios": "tns run ios & npm run api",
     "api": "json-server --watch db.json --routes routes.json",
     "start.ios.android": "tns run ios & tns run android"
   },

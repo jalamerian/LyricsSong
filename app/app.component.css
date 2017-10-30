@@ -1,7 +1,9 @@
 .bouton {
   background-color: chucknorris;
 }
-
+.toto {
+  background-color: pink;
+}
 ScrollView {
   background-color: whitesmoke;
 }
