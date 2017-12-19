@@ -28,7 +28,7 @@ import { Routes } from "@angular/router";
 const routes: Routes = [
   { path: "", redirectTo: "/articles", pathMatch: "full" },
   { path: "articles", component: ArticlesListComponent },
-  { path: "articles/:id", component: ArticleDetailsComponent }
+  { path: "articles/:apiPath", component: ArticleDetailsComponent }
 ];
 
 @NgModule({

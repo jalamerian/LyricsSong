@@ -1,1 +1,20 @@
-<Label text="article details"></Label>
+<ActionBar title="Recherche" orientation="horizontal" android:horizontalAlignment="center">
+    <Image src="res://lyrics-song-logo.png" class="action-image"></Image>
+</ActionBar>
+<StackLayout style="background-color: whitesmoke">
+    <CardView class="cardStyle" height="auto" width="90%" margin="10"
+    elevation="20" radius="10"
+    ios:shadowColor="#CCCCCC"
+    ios:shadowOpacity="7">
+    <ScrollView>
+        <GridLayout rows="auto, auto, auto, auto, auto, auto" columns="*">
+          <Image row="0" [src]="songDetails.song.header_image_url"></Image>
+          <Label style="text-align: center ; color:red;" row="1" col="0" class="p-10"  text="DESCRIPTION" textWrap="true"></Label>
+          <Label style="text-align: center ;" row="2" col="0" class="p-10"  text="{{songDetails.song.description.plain}}" textWrap="true"></Label>
+          <Label style="text-align: center ; color:red;" row="3" col="0" class="p-10"  text="LIEN VERS LES PAROLES" textWrap="true"></Label>
+          <Label style="text-align: center ;" row="4" col="0" class="p-10"  text="{{songDetails.song.url}}" textWrap="true"></Label>
+        </GridLayout>
+    </ScrollView>
+    </CardView>
+  </StackLayout>
+

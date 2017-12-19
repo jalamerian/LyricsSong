@@ -11,5 +11,6 @@ refer to http://docs.nativescript.org/ui/theme.
 */
 @import 'nativescript-theme-core/css/lime.css';
 
-
-
+.cardStyle {
+    background-color: white;
+  }

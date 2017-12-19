@@ -2,8 +2,8 @@ ScrollView {
   background-color: whitesmoke;
 }
 
-.cardStyle {
-  background-color: white;
+image {
+  border-radius: 15px;
 }
 
 .status {
@@ -12,12 +12,8 @@ ScrollView {
   border-radius: 50%;
 }
 
-.bad {
-  background-color: #c0392b;
-  color: #c0392b;
-}
 
-.good {
-  background-color: #2ecc71;
-  color: #2ecc71;
+button {
+  border-radius: 15px;
+  background-color: rgb(31, 31, 31);
 }
